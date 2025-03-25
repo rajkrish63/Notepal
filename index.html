@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notepal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-pencil">
+                <path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"/>
+                <path d="m15 5 4 4"/>
+            </svg>
+            <h1>Notepal</h1>
+        </header>
+
+        <main>
+            <div class="note-input-card">
+                <input type="text" id="title-input" placeholder="Title">
+                <textarea id="content-input" placeholder="Take a note..."></textarea>
+                <button id="add-note-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus">
+                        <path d="M5 12h14"/>
+                        <path d="M12 5v14"/>
+                    </svg>
+                </button>
+            </div>
+
+            <div id="notes-container" class="notes-grid">
+                <!-- Notes will be dynamically added here -->
+            </div>
+        </main>
+
+        <footer>
+            <p>© Copyright 2025 Shrey Agarwal</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
