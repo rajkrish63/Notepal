@@ -70,7 +70,7 @@ notepal/
 
 ## 👨‍💻 Author
 
-Shrey Agarwal
+rajesh
 - GitHub: [@rajkrish63](https://github.com/rajkrish63)
 - Portfolio: [Your Portfolio Link](https://rajkrish63.github.io/portfolio)
 
